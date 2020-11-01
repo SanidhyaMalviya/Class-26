@@ -51,3 +51,39 @@ nothing to commit, working tree clean
 
 hp@LAPTOP-CF6BLI74 MINGW64 ~/OneDrive/Documents/WHITE_HAT_JR/CLASSES/Class26/Angry (master)
 $
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hp@LAPTOP-CF6BLI74 MINGW64 ~/OneDrive/Documents/WHITE_HAT_JR/CLASSES/Class26/Angry (master)
+$ git add README.md
+
+hp@LAPTOP-CF6BLI74 MINGW64 ~/OneDrive/Documents/WHITE_HAT_JR/CLASSES/Class26/Angry (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+hp@LAPTOP-CF6BLI74 MINGW64 ~/OneDrive/Documents/WHITE_HAT_JR/CLASSES/Class26/Angry (master)
+$ git commit -m "Git Commands"
+[master 3ab2ac3] Git Commands
+ 1 file changed, 51 insertions(+)
+
+hp@LAPTOP-CF6BLI74 MINGW64 ~/OneDrive/Documents/WHITE_HAT_JR/CLASSES/Class26/Angry (master)
+$ git remote add test https://github.com/SanidhyaMalviya/Class-26.git
+
+hp@LAPTOP-CF6BLI74 MINGW64 ~/OneDrive/Documents/WHITE_HAT_JR/CLASSES/Class26/Angry (master)
+$ git push -u test
+Enumerating objects: 47, done.
+Counting objects: 100% (47/47), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (47/47), 2.54 MiB | 1.42 MiB/s, done.
+Total 47 (delta 15), reused 42 (delta 13), pack-reused 0
+remote: Resolving deltas: 100% (15/15), done.
+To https://github.com/SanidhyaMalviya/Class-26.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'test'.
+
